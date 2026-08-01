@@ -9,6 +9,16 @@
 
 <body>
     <h1>Object ek data structure hai jo related information ko ek hi jagah store karta hai.</h1>
+    <h3>Object.keys() → Keys <br>
+
+        Object.values() → Values <br>
+
+        Object.entries() → Key + Value</h3>
+
+    <h1>Special Loop</h1>
+    <p>for (let key in student) {
+        console.log(key);
+        }</p>
 </body>
 <script>
 
@@ -21,7 +31,7 @@
     // console.log(laptop.RAM);
 
 
-    //     // UPDATE 
+    //     // UPDATE
     //     object.key = newValue;
 
 
@@ -33,7 +43,7 @@
     // student.city = "Islamabad";
 
 
-    // ADD 
+    // ADD
 
 
     // let laptop = {
@@ -52,13 +62,13 @@
     //     age: 20
     // };
 
-    // student.city = "Karachi";   
+    // student.city = "Karachi";
 
-    // console.log(student); 
+    // console.log(student);
 
 
 
-    // Delete 
+    // Delete
 
 
     // let student = {
@@ -70,7 +80,33 @@
     // delete student.city;
 
     // console.log(student);
-    
+
+
+
+    //     for (let key in student) {
+    //     console.log(key);
+    // }
+
+
+    let car = {
+        brand: "Toyota",
+        model: "Corolla",
+        year: 2022
+    };
+
+
+    for (let key in car) {
+        console.log(key);
+    }
+
+    for (let key in car) {
+        console.log(car[key]);
+    }
+
+    for (let key in car) {
+        console.log(key, ":", car[key]);
+    }
+
 </script>
 
 </html>
