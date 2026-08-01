@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1></h1>
+
+
+
+<div id="card">
+
+    <button id="btn">
+        🎁 Open Gift
+    </button>
+
+</div>
+</body>
+
+
+<script>
+    const button = document.getElementById("btn");
+    const emtcard = document.getElementById("card");
+
+    button.addEventListener("click", () => {
+        const h = document.createElement("h2");
+        h.textContent = "🎉 Happy Birthday Bhai! 🎂";
+
+        emtcard.append(h);
+
+
+        const p = document.createElement("p");
+        p.textContent = "May Allah bless you with happiness, health and success. ❤️";
+        emtcard.append(p);
+
+        button.remove();
+
+        const newbtn = document.createElement("button");
+        newbtn.textContent = "🎂 Reveal Cake";
+        emtcard.append(newbtn)
+
+        newbtn.addEventListener("click", () => {
+            const img = document.createElement("img");
+
+            img.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1LvCpgiyEK9sSRhc4xwLtqpmvc9iiXtdFpxmKuSd2P2Pgt568GAuP6TjJ&s=10 ";
+
+            card.append(img);
+
+            newbtn.remove();
+        })
+
+    })
+
+
+
+</script>
+
+</html>

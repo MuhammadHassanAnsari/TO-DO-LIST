@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+        integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>🎓 Student Management System</h1>
+    <div class="container">
+
+        <input id="inputarea" type="text" placeholder="Enter Student Name...">
+
+
+    </div>
+    <div id="button">
+        <button class="btn" id="add"> <i class="fa-solid fa-plus" style="color: rgb(255, 255, 255);"></i> Add
+            Student</button>
+        <button class="btn" id="addfirst"> <i class="fa-solid fa-plus" style="color: rgb(255, 255, 255);"></i> Add
+            First</button>
+        <button class="btn" id="removelast"> <i class="fa-solid fa-minus" style="color: rgb(255, 255, 255);"></i> Remove
+            Last Student</button>
+        <button class="btn" id="removefirst"> <i class="fa-solid fa-minus" style="color: rgb(255, 255, 255);"></i>
+            Remove First Student</button>
+        <button class="btn" id="replace"> <i class="fa-solid fa-pencil" style="color: rgb(255, 255, 255);"></i>
+            Replace</button>
+        <button class="btn" id="studentsearch"> <i class="fa-solid fa-search" style="color: rgb(255, 255, 255);"></i>
+            Search</button>
+        <button class="btn" id="delete">  <i class="fa-solid fa-trash" style="color: rgb(255, 255, 255);"></i> Delete</button>
+    </div>
+
+
+
+    <ul id="studentlist"></ul>
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
