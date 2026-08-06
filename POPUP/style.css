@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body {
+    background-color: black;
+}
+
+.cross {
+    position: absolute;
+    left: 350px;
+    cursor: pointer;
+    margin: 9px;
+
+}
+
+.tick{
+    margin: 9px;
+
+}
+
+.cross:hover {
+    color: darkred;
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+
+h2,p {
+    margin: 9px;
+
+}
+
+.ok {
+    padding: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 6px;
+    width: 70px;
+    border: none;
+    background-color: #2563EB;
+    color: white;
+    margin: 9px;
+
+}
+
+.ok:hover {
+    transition: 0.3s;
+    transform: scale(1.05);
+    box-shadow: 0 3px 3px #4a7adf;
+
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.popup {
+    width: 30%;
+    background-color: white;
+    border-radius: 9px;
+    position: relative;
+    padding: 10px;
+    box-shadow: 0 10px 30px rgba(252, 250, 250, 0.3);
+}
