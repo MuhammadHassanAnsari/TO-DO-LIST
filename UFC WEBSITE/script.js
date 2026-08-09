@@ -110,7 +110,7 @@ let featherweightFighter = [
     },
 
     {
-        name: " Aljamain Sterling",
+        name: "Aljamain Sterling",
         division: "Featherweight",
         record: "25 - 5 - 0",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZYnFTO_zn6Nmx0Ft8df2l1TXkBD7BFXzwj4MqYGSYkg&s=10"
@@ -315,70 +315,70 @@ let welterweightFighter = [
         name: "Carlos Prates",
         division: "welterweight",
         record: "23 - 7 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwg-X9yv6c-mxH8w9_L7CcqJPPOuOnGiertRXlE72ZuFnxVu_BQP5Dledb0k5Yp468hkhAHxkMCwnbcIKqfhWEC1GI0AcoE4NES0oHPv2wYA&s=10"
     },
 
     {
         name: "Ian Machado Garry",
         division: "welterweight",
         record: "16 - 1 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREJcAGGddJRd-P8XfoxsOSokFn7cAu8vMTPmzMhiJqYA&s=10"
     },
 
     {
         name: "Michael Morales",
         division: "welterweight",
         record: "19 - 0 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1olkHG_coOTpmn-2OLg2BC3oA4Hz9lICieQoDNNmu4A&s=10"
     },
 
     {
         name: "Jack Della Maddalena",
         division: "welterweight",
         record: "18 - 3 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmru23Ql_F2VcDM-0M2eoSj-MZ6Fl_otFjrcFTRVRiVQ&s=10"
     },
 
     {
         name: "Sean Brady",
         division: "welterweight",
         record: "18 - 2 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9EiBAQS2umzI0F8yWPP2teFIA7b4ONbn1KNesQ7z-YQ&s=10"
     },
 
     {
         name: "Gabriel Bonfim",
         division: "welterweight",
         record: "18 - 1 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVdHq0Pzcr3Tq6kYzZPhkQsXZ7KAn-XNU3vasgV6rUVA&s"
     },
 
     {
         name: "Belal Muhammad",
         division: "welterweight",
         record: "24 - 5 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqSeJdlOOxxib692hpxG02oKrD11AIJsnVtDfC2uAJDw&s=10"
     },
 
     {
         name: "Leon Edwards",
         division: "welterweight",
         record: "22 - 6 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiIxCX0yqA0GsSXnJNmowi6EQ56u03oaWB3iWHw1Z8Iw&s=10"
     },
 
     {
         name: "Joaquin Buckley",
         division: "welterweight",
         record: "21 - 7 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY8uAKJx4bRofiupBpoBiYsqshpYxo1nr3xbe6rlVJsQ&s=10"
     },
 
     {
         name: "Uroš Medić",
         division: "welterweight",
         record: "12 - 3 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQONz3GDfWU3FzkXfD1AYjASYqGFi5nhrQVZuRPrB3yXA&s"
     }
 
 ];
@@ -390,70 +390,70 @@ let middleweightFighter = [
         name: "Khamzat Chimaev",
         division: "middleweight",
         record: "15 - 0 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8CTXOS5J1XBUPRZbSetv6dHJR8gaVfbZfJy2omaiPtA&s=10"
     },
 
     {
         name: "Dricus Du Plessis",
         division: "middleweight",
         record: "23 - 3 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI55T-azXgQRQXVUjKcM6O8wmuf9nvHvE6le395jhxbg&s=10"
     },
 
     {
         name: "Nassourdine Imavov",
         division: "middleweight",
         record: "17 - 4 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTGmgIJPBJqvbNS6-0AIivlNZuPpL0h3AGTTyyD5Gf0w&s=10"
     },
 
     {
         name: "Joe Pyfer",
         division: "middleweight",
         record: "15 - 3 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBjEk2kEJJG54zk9PqCehEqDMlD6iSB5k2TjmHiTbx3A&s=10"
     },
 
     {
         name: "Brendan Allen",
         division: "middleweight",
         record: "25 - 7 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpqGe5TgEziCukx9JDu2sWxvaNP7LK9tdMWVPqctfyiQ&s"
     },
 
     {
         name: "Caio Borralho",
         division: "middleweight",
         record: "18 - 1 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmtZvNglxghOpyNkefmmAcQ9rHSXMFDkebYksGI0KW2Q&s=10"
     },
 
     {
         name: "Anthony Hernandez",
         division: "middleweight",
         record: "14 - 3 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5r3sjpD1jgzDzChTgLM794dR3lDwqEOj2OQyGSIk3OA&s=10"
     },
 
     {
         name: "Israel Adesanya",
         division: "middleweight",
         record: "24 - 5 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX92-YPsEY6-aGVCNQ1dF4VaIaaVZl-MaPr8Uqc0_8OQ&s=10"
     },
 
     {
         name: "Gregory Rodrigues",
         division: "middleweight",
         record: "17 - 7 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1_-Ughjj0TwEhm4mGTveeRE_YZY7xpw-PuwblgP6Vmg&s"
     },
 
     {
         name: "Christian Leroy Duncan",
         division: "middleweight",
         record: "12 - 2 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRec5F2NGeVmhjybdU32YRBCZYNXlK6hIJFV-81I_0KuQ&s"
     }
 
 ];
@@ -465,70 +465,70 @@ let lightHeavyweightFighter = [
         name: "Magomed Ankalaev",
         division: "light heavyweight",
         record: "21 - 3 - 1",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-0S7s2B34hDSAyqV6Wjs3-Dq4fB8D6du8Sk-HYox37w&s"
     },
 
     {
         name: "Jiří Procházka",
         division: "light heavyweight",
         record: "32 - 6 - 1",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4hjQyzQK8L5wqHU-FCFPRRvhEEMP6pXGqw5NEPkaMTw&s"
     },
 
     {
         name: "Paulo Costa",
         division: "light heavyweight",
         record: "15 - 3 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgAeON6HO4BdHp2YeuuivrbB5UNYo7sFOMwtB7lwwiXg&s=10"
     },
 
     {
         name: "Jamahal Hill",
         division: "light heavyweight",
         record: "12 - 3 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfzgzFRUe4qW7F2YmwGvnytXl2yd1JtHWtDqogdxzFVA&s=10"
     },
 
     {
         name: "Khalil Rountree Jr.",
         division: "light heavyweight",
         record: "14 - 6 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMBL1yyl66HFEfLbYfC9ZWY_-IqTKYG0jxTfUSGcOUBw&s=10"
     },
 
     {
         name: "Navajo Stirling",
         division: "light heavyweight",
         record: "6 - 1 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfazPkpr_35mMXeN6fXRMe0bqgVKiGz2iAp7RjsiYueA&s"
     },
 
     {
         name: "Dominick Reyes",
         division: "light heavyweight",
         record: "16 - 4 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1tZpQVUc91j__2FmRRza3YCTB8OoNbUyUVh1nEwO65A&s=10"
     },
 
     {
         name: "Azamat Murzakanov",
         division: "light heavyweight",
         record: "15 - 0 - 0",
-        image: ""
+        image: "https://ufc.com/images/styles/athlete_bio_full_body/s3/2026-04/MURZAKANOV_AZAMAT_L_04-11.png?itok=mqQa9nra"
     },
 
     {
         name: "Bogdan Guskov",
         division: "light heavyweight",
         record: "17 - 4 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTQ3SoQCfB0MCgeIQPHQmhB60tUFqkQiy6q4HaEvWfHA&s=10"
     },
 
     {
         name: "Robert Whittaker",
         division: "light heavyweight",
         record: "27 - 8 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNpNiZn6AEdwk9xXLlvdWlONmN6uFRFLboQ6jCqU9JOA&s"
     }
 
 ];
@@ -540,70 +540,70 @@ let heavyweightFighter = [
         name: "Ciryl Gane",
         division: "heavyweight",
         record: "14 - 2 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2hWAd_Fw8XEfgJm0hNb01-lmQcDH_skEjecPnf3Uthg&s=10"
     },
 
     {
         name: "Alexander Volkov",
         division: "heavyweight",
         record: "38 - 11 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmnML1BZetgeNHgGfUuguw3EPn8q-Elb_7KoPfIpw61g&s=10"
     },
 
     {
         name: "Sergei Pavlovich",
         division: "heavyweight",
         record: "19 - 3 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLzPrtMw6u5Wm15gAdq_q0xn4tRWSOQN1wvEsdnpn-Sw&s"
     },
 
     {
         name: "Alex Pereira",
         division: "heavyweight",
         record: "13 - 3 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsJ3qSxjjquPfWENxfLMRtqkbf_nKEYA_HJAfahnt3Pw&s=10"
     },
 
     {
         name: "Rizvan Kuniev",
         division: "heavyweight",
         record: "14 - 0 - 1",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQKZOutfbmOgtrsnGqdF0AEUTv7hC_tl6gJIK2XYMhgw&s"
     },
 
     {
         name: "Josh Hokit",
         division: "heavyweight",
         record: "6 - 0 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRROX_1NQgUjS_nU99XIT_z9rbR4upiA6EyUT3eFun-IQ&s=10"
     },
 
     {
         name: "Waldo Cortes Acosta",
         division: "heavyweight",
         record: "15 - 2 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2bMVlqFkB6YTLuXunXIHwj5P6RRGAwjLRyWaBW-NUAQ&s=10"
     },
 
     {
         name: "Valter Walker",
         division: "heavyweight",
         record: "15 - 1 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtAsYn185QFknDVJlC-I5nMERyh3YIFzfTxP8o57vuEw&s"
     },
 
     {
         name: "Serghei Spivac",
         division: "heavyweight",
         record: "18 - 5 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8ThDzRVPV6Xu8noV2mDaDx1jZxkb4d7ehWHjaJ9bhXQ&s"
     },
 
     {
         name: "Curtis Blaydes",
         division: "heavyweight",
         record: "19 - 6 - 0",
-        image: ""
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_PeKFINk7TpakehbX1WeRVMUrG2a7DN_lo9gNNYfa1g&s"
     }
 
 ];

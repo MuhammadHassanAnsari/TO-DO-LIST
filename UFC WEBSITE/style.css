@@ -153,6 +153,24 @@ span {
 
 }
 
+#submit-fighter{
+       background: #D20A11;
+    color: white;
+    border: 0;
+    padding: 10px;
+    margin-top: 16px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 7px;
+}
+
+#submit-fighter:hover {
+    background: #FF2A2A;
+    transform: translateY(-2px);
+
+}
+
 .event {
     background: transparent;
     color: white;
@@ -177,6 +195,13 @@ span {
     height: 100%;
     width: 100%;
 }
+
+
+.newscard {
+    position: relative;
+}
+
+
 
 .newssection h1 {
     font-weight: 600;
@@ -1013,6 +1038,8 @@ nav {
     .footer {
         padding: 20px 10px;
     }
+
+       
 }
 
 
