@@ -617,3 +617,432 @@ textarea:focus {
     background: #FF2A2A;
     cursor: pointer;
 }
+
+
+
+
+
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+nav {
+    animation: fadeDown .8s ease forwards;
+}
+
+.navitems {
+    animation: fadeIn .8s ease forwards;
+}
+
+
+
+.herosection h1:nth-of-type(1) {
+    animation: fadeUp 1s ease forwards;
+}
+
+.herosection h1:nth-of-type(2) {
+    animation: fadeUp 1.2s ease forwards;
+}
+
+.herolist {
+    animation: fadeUp 1.4s ease forwards;
+}
+
+.herobtn {
+    animation: fadeUp 1.6s ease forwards;
+}
+
+.fighters,
+.event {
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.fighters:hover,
+.event:hover {
+    transform: translateY(-4px) scale(1.03);
+}
+
+
+.newscard1 {
+    animation: scaleIn .7s ease forwards;
+}
+
+.newscard1:nth-child(2) {
+    animation-delay: .1s;
+}
+
+.newscard1:nth-child(3) {
+    animation-delay: .2s;
+}
+
+.newscard1:nth-child(4) {
+    animation-delay: .3s;
+}
+
+.newscard1:nth-child(5) {
+    animation-delay: .4s;
+}
+
+.newscard1:nth-child(6) {
+    animation-delay: .5s;
+}
+
+.newscard1:nth-child(7) {
+    animation-delay: .6s;
+}
+
+.main-event {
+    animation: fadeUp .8s ease forwards;
+}
+
+.main-event:nth-of-type(2) {
+    animation-delay: .2s;
+}
+
+.fighter img {
+    transition: transform .4s ease;
+}
+
+.fighter:hover img {
+    transform: scale(1.08);
+}
+
+
+.fighter-card {
+    animation: scaleIn .7s ease forwards;
+    transition: transform .3s ease, border-color .3s ease;
+}
+
+.fighter-card:hover {
+    transform: translateY(-8px);
+}
+
+
+.lightweight-card {
+    animation: fadeUp .7s ease forwards;
+}
+
+
+.contact-card {
+    animation: fadeUp .8s ease forwards;
+}
+
+
+
+.fighter-popup {
+    animation: scaleIn .4s ease forwards;
+}
+
+
+
+@media (max-width: 900px) {
+
+    .container {
+        width: 94%;
+    }
+
+    nav {
+        justify-content: space-between;
+    }
+
+    .navbar {
+        gap: 15px;
+        padding: 0 18px;
+    }
+
+    .herosection h1:nth-of-type(1) {
+        font-size: 4rem;
+    }
+
+    .herosection h1:nth-of-type(2) {
+        font-size: 1.7rem;
+    }
+
+    .main-event {
+        width: 90%;
+        padding: 30px;
+        gap: 25px;
+    }
+
+    .fighter-card-sec {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .ranking-card {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .contact-card {
+        width: 90%;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+
+    .container {
+        width: 94%;
+    }
+
+    nav {
+        height: auto;
+        margin-top: 10px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .navbar {
+        width: 100%;
+        height: auto;
+        min-height: 40px;
+        padding: 8px 12px;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navitems {
+        font-size: 14px;
+    }
+
+
+
+    .herosection {
+        min-height: 75vh;
+        padding: 40px 15px;
+    }
+
+    .herosection h1:nth-of-type(1) {
+        font-size: 2.8rem;
+        line-height: 1.1;
+    }
+
+    .herosection h1:nth-of-type(2) {
+        font-size: 1.3rem;
+        line-height: 1.4;
+    }
+
+    .herolist {
+        font-size: 16px;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .herobtn {
+        gap: 12px;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .fighters,
+    .event {
+        width: 85%;
+        font-size: 17px;
+    }
+
+
+
+    .newssection h1:nth-child(1) {
+        font-size: 2.7em;
+    }
+
+    .newssection h1:nth-child(2) {
+        font-size: 1.4em;
+    }
+
+    .newscard {
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .newscard1 {
+        width: 280px;
+        min-width: 280px;
+    }
+
+
+    .upcoming-event-section {
+        padding: 50px 0;
+    }
+
+    .upcoming-event-section h1:nth-child(1) {
+        font-size: 2.3em;
+    }
+
+    .upcoming-event-section h2:nth-child(2) {
+        font-size: 1.4em;
+    }
+
+    .main-event {
+        width: 90%;
+        margin: 30px auto;
+        padding: 25px 15px;
+        flex-direction: column;
+        gap: 25px;
+        text-align: center;
+    }
+
+    .fight-info {
+        order: 2;
+    }
+
+    .fighter {
+        width: 100%;
+    }
+
+
+
+
+    .fighter-section {
+        padding: 50px 15px;
+    }
+
+    .fighter-section h1:nth-child(1) {
+        font-size: 2.7em;
+    }
+
+    .fighter-section h2:nth-child(2) {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .fighter-card-sec {
+        padding: 20px 15px;
+        gap: 20px;
+    }
+
+    .fighter-card {
+        width: 280px;
+        min-width: 280px;
+    }
+
+
+
+
+    .rank-head {
+        font-size: 2.3em;
+    }
+
+    .rank-body {
+        font-size: 1.5em;
+    }
+
+    .ranking-card {
+        padding: 0 15px;
+        gap: 20px;
+    }
+
+    .lightweight-card {
+        width: 280px;
+    }
+
+
+
+    .contact-section {
+        padding: 50px 15px;
+    }
+
+    .contact-section h1 {
+        font-size: 2.3rem;
+    }
+
+    .contact-section h2 {
+        font-size: 1.1rem;
+    }
+
+    .contact-card {
+        width: 100%;
+        padding: 25px 18px;
+        margin: 30px auto;
+    }
+
+    input,
+    textarea {
+        font-size: 15px;
+    }
+
+
+
+    .footer {
+        padding: 20px 10px;
+    }
+}
+
+
+
+@media (max-width: 400px) {
+
+    .herosection h1:nth-of-type(1) {
+        font-size: 2.3rem;
+    }
+
+    .herosection h1:nth-of-type(2) {
+        font-size: 1.1rem;
+    }
+
+    .herolist {
+        font-size: 14px;
+    }
+
+    .newscard1 {
+        width: 260px;
+        min-width: 260px;
+    }
+
+    .fighter-card {
+        width: 260px;
+        min-width: 260px;
+    }
+
+    .lightweight-card {
+        width: 260px;
+    }
+
+}

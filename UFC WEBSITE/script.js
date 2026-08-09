@@ -10,6 +10,8 @@ let ClosePop = document.querySelector(".close-popup");
 
 
 
+
+
 let LightweightFighter = [
 
     {
@@ -892,3 +894,6 @@ ClosePop.addEventListener("click", () => {
     fighterspopup.style.display = "none";
 
 })
+
+
+
