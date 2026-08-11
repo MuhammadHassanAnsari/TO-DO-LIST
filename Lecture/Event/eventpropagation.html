@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="parent">
+        <button id="child">Click Me</button>
+    </div>
+</body>
+<script>
+    let parent = document.querySelector("#parent");
+    let child = document.querySelector("#child");
+
+    parent.addEventListener("click", () => {
+        console.log("Parent");
+    });
+
+    child.addEventListener("click", () => {
+        console.log("Child");
+    });
+
+
+// output child parent hoga 
+
+//    DIV
+//        Parent
+//           ↑
+//           |
+//        BUTTON
+//         Child
+
+//         ise eventbubbling khete he 
+
+// Neeche jana = Capturing
+
+// Actual element = Target
+
+// Upar wapas aana = Bubbling
+
+
+</script>
+
+</html>
