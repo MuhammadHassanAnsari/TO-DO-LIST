@@ -5,44 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div id="parent">
-        <button id="child">Click Me</button>
+    <!-- <div id="grandparent">
+        GrandParent
+        <div class="parent">
+            Parent
+            <div class="child">Child</div>
+        </div>
     </div>
+
+
+    <h1>CAPTRUING</h1>
+    <p>Root se child tk move</p>
+    <h1>Target</h1>
+    <p>Jis pr event laga ho</p>
+    <h1>Bubbling Face</h1>
+    <p>Target me pochne ke bad dubara parent me jaana shuru hota he</p> -->
+
+
+    <h1>Event Target</h1>
+
+    <div class="parent">
+        <button class="child">Click Me</button>
+        <!-- event.target = jis element par actual event hua. -->
+        <!-- event.currentTarget = jis element par currently listener execute ho raha hai. -->
+        <!-- target = click kahan hua?
+
+        currentTarget = listener kahan laga hai? -->
+    </div>
+
+
+
 </body>
-<script>
-    let parent = document.querySelector("#parent");
-    let child = document.querySelector("#child");
-
-    parent.addEventListener("click", () => {
-        console.log("Parent");
-    });
-
-    child.addEventListener("click", () => {
-        console.log("Child");
-    });
-
-
-// output child parent hoga 
-
-//    DIV
-//        Parent
-//           ↑
-//           |
-//        BUTTON
-//         Child
-
-//         ise eventbubbling khete he 
-
-// Neeche jana = Capturing
-
-// Actual element = Target
-
-// Upar wapas aana = Bubbling
-
-
-</script>
+<script src="script.js"></script>
 
 </html>
