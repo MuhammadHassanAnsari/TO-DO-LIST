@@ -5,17 +5,17 @@
     font-size: 20px;
 }
 
-/* #grandparent{
-    background: red;
-    padding: 100px;
-}
+    #grandparent{
+        background: red;
+        padding: 100px;
+    }
 
-.parent{
-    padding: 70px;
-    background-color: purple;
-}
+    .parent{
+        padding: 70px;
+        background-color: purple;
+    }
 
-.child{
-    padding: 50px;
-    background-color: yellow;
-} */
+    .child{
+        padding: 50px;
+        background-color: yellow;
+    }
