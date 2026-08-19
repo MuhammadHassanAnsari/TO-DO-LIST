@@ -1,4 +1,4 @@
-// LIERAL METHOD 
+// LIERAL METHOD
 
 // let num = 12343223n;
 // let num1 = 1234.43
@@ -6,16 +6,16 @@
 // console.log(num1)
 
 
-// CONSTRUCTOR METHOD 
+// CONSTRUCTOR METHOD
 
 // let num = new Number(2345654);
 // console.log(num)
 
 
-// NUMBER PROPERTIES 
+// NUMBER PROPERTIES
 
 // let a = 0/0;
-// console.log(a);  
+// console.log(a);
 // console.log(isNaN(a))
 
 // console.log(Number.MAX_VALUE)
@@ -29,10 +29,10 @@
 
 
 
-// NUMBER METHOD 
+// NUMBER METHOD
 // 1- isNaN
 // let a = 0/0;
-// console.log(a);  
+// console.log(a);
 // console.log(isNaN(a))
 
 
@@ -50,18 +50,30 @@
 
 
 
-// Number Instace Method 
+// Number Instace Method
 
 
-let num = 14;
+// let num = 14;
 
 // (3) hume bata ta hai decimal ke bad kitne digit ayenge aur round off bhi krta hai
-console.log(num.toFixed(3))
+// console.log(num.toFixed(3))
+
+// console.log(num.toExponential(3))
+// console.log(num.toPrecision(4))
+// console.log(num.toString())
 
 
+// MATH METHOD and PROPERTIES
 
+// let num = 23.53;
+// console.log(Math.round(num))
+//  console.log(Math.floor(num))
+//  console.log(Math.ceil(num))
+// console.log(Math.abs(3))
+// console.log(Math.sqrt(9))
+// console.log(Math.pow(2,2))
+// console.log(Math.min(2,3,2,-1,34,54))
+// console.log(Math.max(2,3,2,-1,34,54))
 
-num.toExponential(num);
-num.toExponential(num);
-num.toPrecision(num);
-num.toString(num);
+// Math random gives value b/w 0-1 while 0 is include and 1 is exclude
+Math.random()
