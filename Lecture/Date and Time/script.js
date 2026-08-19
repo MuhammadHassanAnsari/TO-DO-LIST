@@ -76,4 +76,14 @@
 // console.log(Math.max(2,3,2,-1,34,54))
 
 // Math random gives value b/w 0-1 while 0 is include and 1 is exclude
-Math.random()
+// Math.random()*2 + 1;
+
+// Minimum -------> Maximum 
+
+let min = 5;
+let max = 5;
+
+console.log(Math.floor(Math.random() * (max - min + 1)));
+
+
+
