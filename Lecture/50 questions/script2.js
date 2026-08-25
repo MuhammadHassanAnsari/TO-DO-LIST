@@ -6,12 +6,12 @@
 
 
 // console.log(0.1 + 0.2 !== 0.3);
-// due to floating point issue 
+// due to floating point issue
 
 
 // q 18
 
-// Handle precision 
+// Handle precision
 
 // let sum = Number((0.1 + 0.2).toFixed(2));
 
@@ -29,7 +29,7 @@
 // q 19
 
 
-// slice string aur array dono ke sath kamm krta hai lekin splice sirf array ke sath kr skta hai 
+// slice string aur array dono ke sath kamm krta hai lekin splice sirf array ke sath kr skta hai
 
 // let string = 'mansds';
 // let arr = ['a','m','s','d','w']
@@ -40,17 +40,56 @@
 
 
 
-// q20 
+// q21
 
-// reverse wording 
-
-
-let sentence = "I am Hassan";
-
-let finalresult = sentence.split(' ').map(word =>{
-   let reverse =  word.split('').reverse().join('');
-    return  (reverse)
-}).join(' ')
+// reverse wording
 
 
-console.log(finalresult)
+// let sentence = "I am Hassan";
+
+// let finalresult = sentence.split(' ').map(word =>{
+//    let reverse =  word.split('').reverse().join('');
+//     return  (reverse)
+// }).join(' ')
+
+
+// console.log(finalresult)
+
+
+
+// q22
+
+
+// let arr = [2, 4, 5, 6, 'sd', 'ds', 4, 'vre'];
+// let sum = 0;
+
+
+// arr.forEach(item => {
+//     if (typeof item === 'number') {
+//         sum += item;
+//     }
+// });
+
+// console.log(sum)
+
+
+
+// q23
+
+// let num = 1243;
+
+// console.log(Number.isInteger(num))
+// console.log(num % 1 === 0)
+
+
+// q24 
+
+
+function reversenumber(num) {
+    return Number(num.toString().split('').reverse().join(''));
+
+}
+
+
+let reverse = reversenumber(1234567)
+console.log(reverse)
