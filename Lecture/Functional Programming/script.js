@@ -83,5 +83,60 @@
 
 
 
-// Avoid shared staate
+// Avoid shared state ---> Ca lead to bug
+// let total = 0;
+
+// function addamount(amount) {
+//     total += 100;
+// }
+
+
+// addamount(100)
+// console.log(total)
+
+
+
+// Side state 
+// function capitalizeFirstletter(str) {
+//   let newStr = str.CharAt(0).toUpperCase() + str.slice(1);
+//     return newStr;
+// }
+// let newStr = capitalizeFirstletter("hello");
+// console.log(newStr);
+
+
+
+// resuse or compose logic 
+
+
+let name = "Hassan Ansari";
+
+
+let tolower = str => {
+    return str.toLowerCase()
+}
+
+
+let removespace = str => {
+    return str.replaceAll(' ',"");
+}
+
+
+let addAttherate = str => {
+    return "@" + str;
+}
+
+function createusername(str){
+
+    // return tolower(str);
+    // return removespace(tolower(str));
+    return addAttherate(removespace(str));
+
+
+}
+
+let result = createusername(name);
+console.log(result);
+
+
 
