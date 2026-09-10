@@ -9,7 +9,7 @@
 
 
 
-// // impure function 
+// // impure function
 
 // let total = 0;
 
@@ -47,8 +47,8 @@
 // function replacename(name){
 //     // obj.name = name;
 //     let newobj = {...obj, name} ;
-//     return newobj; 
-// }   
+//     return newobj;
+// }
 
 // let replacedobj =  replacename("Hassan");
 
@@ -96,7 +96,7 @@
 
 
 
-// Side state 
+// Side state
 // function capitalizeFirstletter(str) {
 //   let newStr = str.CharAt(0).toUpperCase() + str.slice(1);
 //     return newStr;
@@ -106,37 +106,66 @@
 
 
 
-// resuse or compose logic 
+// resuse and compose logic
 
 
-let name = "Hassan Ansari";
+// let name = "Hassan Ansari";
 
 
-let tolower = str => {
-    return str.toLowerCase()
-}
+// let tolower = str => {
+//     return str.toLowerCase()
+// }
 
 
-let removespace = str => {
-    return str.replaceAll(' ',"");
-}
+// let removespace = str => {
+//     return str.replaceAll(' ', "");
+// }
 
 
-let addAttherate = str => {
-    return "@" + str;
-}
+// let addAttherate = str => {
+//     return "@" + str;
+// }
 
-function createusername(str){
+// function createusername(str) {
 
-    // return tolower(str);
-    // return removespace(tolower(str));
-    return addAttherate(removespace(str));
+//     // return tolower(str);
+//     // return removespace(tolower(str));
+//     return addAttherate(removespace(str));
 
 
-}
+// }
 
-let result = createusername(name);
-console.log(result);
+// let result = createusername(name);
+// console.log(result);
 
+
+
+// Dont Iterate
+
+// let arr = [1, 2, 5, 10, 8, 12, 13, 11];
+// let even = [];
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] % 2 === 0) {
+//         even.push(arr[i]);
+//     }
+// }
+
+
+// // Most easy and right method
+// let evenarr = arr.filter(elem => {
+//     return elem % 2 === 0;
+
+// })
+// console.log(even)
+// console.log(evenarr)
+
+
+
+
+
+// loose cupling  means how dependent one piece of code is on another
+
+// more dependent = tight coupling
+// less dependent = losse coupling
 
 
