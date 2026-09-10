@@ -169,3 +169,116 @@
 // less dependent = losse coupling
 
 
+// function fetchdata(fn){
+//     let endpoint = "https://www.google.com";
+//     fn(endpoint);
+// }
+
+
+// function getuser(endpoint) {
+//     fetch(`${endpoint}/user`)
+// }
+
+
+// function getProduct(endpoint) {
+//     fetch(`${endpoint/product}`)
+// }
+
+// fetchdata(getProduct);
+
+
+
+
+// Notification System 
+let user = {
+    name: "Hassan",
+    Email: "hassan@gmail.com",
+    Phone: 0345678932,
+}
+
+
+
+// function sendEmail(user){
+//     console.log("Email send", user.Email)
+// }
+
+
+// function sendSms(user){
+//     console.log("SMS send", user.Phone)
+// }
+
+
+// function whatsSMS(user){
+//     console.log("Msg send to whatsapp", user.Phone)
+// }
+// sendEmail(user);
+// sendSms(user);
+// whatsSMS(user)
+
+
+// function sendmessage(msg, sendto) {
+//     console.log(`${msg} ${sendto}`)
+// }
+
+
+// sendmessage("Email send to", user.Email);
+// sendmessage("SMS send to", user.Phone);
+// sendmessage("Whatsapp send to", user.Phone);
+
+
+
+
+// function sendEmail(user, notifyfn) {
+//     console.log("Email send", user.Email)
+// }
+
+
+// function sendSms(user) {
+//     console.log("SMS send", user.Phone)
+// }
+
+
+// function whatsSMS(user) {
+//     console.log("Msg send to whatsapp", user.Phone)
+// }
+
+
+
+// function sendmessage(user, notifyfn) {
+//     console.log("Since, You are Authoried");
+//     notifyfn(user);
+// }
+
+// let user1 = {
+//     name: "Ali",
+//     Email: "ali21@gmail.com",
+//     Phone: 4356784333,
+// }
+
+
+// let user2 = {
+//     name: "Bilal",
+//     Email: "bilal211@gmail.com",
+//     Phone: 4356784333,
+// }
+
+
+// sendmessage(user1, sendEmail);
+// sendmessage(user2, sendSms);
+
+
+// first-class & higher order function 
+
+
+function greethello() {
+    return "Hello"
+}
+
+
+function greetewithname(fn, name) {
+    return fn() + " " + name;
+}
+
+
+let result = greetewithname(greethello, "Hassan")
+console.log(result);
