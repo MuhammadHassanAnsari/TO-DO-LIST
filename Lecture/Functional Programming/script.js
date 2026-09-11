@@ -190,11 +190,11 @@
 
 
 // Notification System 
-let user = {
-    name: "Hassan",
-    Email: "hassan@gmail.com",
-    Phone: 0345678932,
-}
+// let user = {
+//     name: "Hassan",
+//     Email: "hassan@gmail.com",
+//     Phone: 0345678932,
+// }
 
 
 
@@ -270,15 +270,40 @@ let user = {
 // first-class & higher order function 
 
 
-function greethello() {
-    return "Hello"
-}
+// function greethello() {
+//     return "Hello"
+// }
 
 
-function greetewithname(fn, name) {
-    return fn() + " " + name;
-}
+// function greetsalam() {
+//     return "Salam"
+// }
 
 
-let result = greetewithname(greethello, "Hassan")
-console.log(result);
+// function greetewithname(fn, name) {
+//     return fn() + " " + name;
+// }
+
+
+// let result = greetewithname(greetsalam, "Hassan")
+// console.log(result);
+
+// higher order fnc jo apne aandr fucntion le raha ho as a parameter
+// callback function jo kesi ke higher order ke aandr pass kr rahe ho
+// first class function jese hmm variable mai save kr skte hai 
+
+
+// function func() {
+//     console.log("fun1")
+// }
+
+
+// function HOD(cf) {
+//     return cf;
+// }
+
+
+// let result = HOD(func);
+// result()
+
+
