@@ -57,3 +57,20 @@
 // console.log(hassanaccount);
 // // console.log(rafayaccount);
 // // console.log(ayanaccount);
+
+
+
+class Student {
+    constructor(name, age){
+        this.name = name;
+        this.age = age;
+    }
+
+    introduceMyself(){
+        console.log(`My name is ${this.name}, age us ${this.age}`);
+    }
+}
+
+
+let s1 = new Student("Ali", 21);
+console.log(s1)
