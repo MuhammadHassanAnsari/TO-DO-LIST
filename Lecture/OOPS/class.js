@@ -99,33 +99,67 @@
 // 3. Inheritance 
 
 
-class Car{
-    constructor(brand,color,battery){
-        this.brand = brand;
-        this.color = color;
-    }
+// class Car{
+//     constructor(brand,color,battery){
+//         this.brand = brand;
+//         this.color = color;
+//     }
 
 
-    start(){
-        console.log(`${this.brand} is starting....`)
-    }
+//     start(){
+//         console.log(`${this.brand} is starting....`)
+//     }
     
-    stop(){
-        console.log(`${this.brand} is stopping....`)
+//     stop(){
+//         console.log(`${this.brand} is stopping....`)
+//     }
+// }
+
+
+// class ELectricCar extends Car   {
+//     constructor(brand,color,battery){
+//         super(brand,color)  // super use kia taake parent class ke constructor ko call kr sake 
+//         this.battery = battery;
+//     }
+//      charging(){
+//         console.log(`${this.brand} is charging....`)
+//     }
+// }ma
+
+
+// let tesla = new ELectricCar("Tesla", 'Black',99);
+// console.log(tesla);
+
+
+
+
+
+// 4.  Polymorphism --> many forms ---> It allows differnet class to define method with same name but different behaviour.
+
+
+class MediaPlayer{
+    play(){
+        console.log("Play Media...")
+    }
+}
+
+class music extends MediaPlayer{
+   play(){
+        console.log("Play Music...")
     }
 }
 
 
-class ELectricCar extends Car   {
-    constructor(brand,color,battery){
-        super(brand,color)  // super use kia taake parent class ke constructor ko call kr sake 
-        this.battery = battery;
-    }
-     charging(){
-        console.log(`${this.brand} is charging....`)
+class video extends MediaPlayer{
+   play(){
+        console.log("Play Video...")
     }
 }
 
 
-let tesla = new ELectricCar("Tesla", 'Black',99);
-console.log(tesla);
+let o1 = new music();
+o1.play();
+let o2 = new video();
+o2.play();
+let o3 = new MediaPlayer();
+o3.play();
