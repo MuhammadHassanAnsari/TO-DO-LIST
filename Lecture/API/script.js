@@ -275,3 +275,16 @@
 // API ----> Aplication Programming Interface is set of rules nd protocol that allows 
 // different software application to communicate interaact with each other.
 
+let checklocation = 'London'
+
+async function fetchdata() {
+    let response = await fetch(
+        `http://api.weatherapi.com/v1/current.json?key=24e0010d282942a481d185921262409&q=${checklocation}&aqi=yes`
+    );
+
+    let data = await response.json();
+
+    console.log(data);
+}
+
+fetchdata();
