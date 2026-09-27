@@ -85,3 +85,16 @@ header {
     border: 0;
     cursor: pointer;
 }
+
+.save{
+        /* background-color: rgb(70, 166, 161); */
+        display: none;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 2rem;
+}
+
+
+#editinput{
+    display: none;
+}
