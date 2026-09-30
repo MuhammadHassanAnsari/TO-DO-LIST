@@ -10,12 +10,38 @@
 
 let p1 = new Promise((resolve, reject)=>{
     console.log("This is a Promise")
+
+    // resolve({
+    //     name: 'Hassan'
+    // })
+
+    reject("Something went wrong..!!")
 })
 
 
-// then
+// then  --> data ane ke bad
+
+// p1.then((data)=>{
+//     console.log(data)
+    
+// })
+
+// // catch --> error catch krta hai 
+
+// p1.catch((error)=>{
+//     console.log(error)
+// })
+
+
+
+// Right method 
+//     |
+//     |
+//     |
+//     v
 
 p1.then((data)=>{
     console.log(data)
-    
+}).catch((err)=>{
+    console.log(err)
 })
