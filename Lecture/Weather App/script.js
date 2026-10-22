@@ -1,6 +1,7 @@
 let searchinput = document.querySelector("#search-city");
 let searchbtn = document.querySelector(".search-btn");
 let tempreaturetext = document.querySelector(".tempreature");
+let tempreaturetext1 = document.querySelector(".tempreature1");
 let humditytext = document.querySelector(".humidity");
 let windtext = document.querySelector(".wind");
 let feeltemptext = document.querySelector(".feel-temp");
@@ -64,7 +65,16 @@ searchbtn.addEventListener("click", function () {
         // console.log(tempreaturevalue);
 
         tempreaturetext.textContent = tempreaturevalue;
-        console.log(tempreaturetext.textContent)
+        console.log(tempreaturetext.textContent);
+
+
+        // tempreature1
+
+        let tempreaturevalue1 = data1.current.temperature_2m + "°C";
+        // console.log(tempreaturevalue);
+
+        tempreaturetext1.textContent = tempreaturevalue1;
+        console.log(tempreaturetext1.textContent);
 
 
         // humdity
