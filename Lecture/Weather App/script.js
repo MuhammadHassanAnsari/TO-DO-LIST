@@ -41,6 +41,8 @@ searchbtn.addEventListener("click", function () {
             cityname.textContent = cityvalue;
             console.log(cityvalue);
 
+            searchinput.value = "";
+
         }
 
     }

@@ -1,11 +1,152 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    background-color: #F5EFE3;
+body {
+    background-color: #EFE9DE;
+    font-family: "poppins";
 }
 
+nav {
+    /* border: 2px solid red; */
+    height: 45px;
+    width: 60%;
+    border-radius: 10px;
+    margin: 20px auto;
+    background-color: #F6F0E7;
+    padding: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+nav ul li:nth-child(2) {
+    color: green;
+}
+
+nav ul li:nth-child(1) {
+    font-weight: 600;
+}
+
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#search-city {
+    width: 30%;
+    height: 40px;
+    border-radius: 8px;
+    padding: 10px;
+    border: 0;
+    background-color: #F8F3EB;
+    border: 1px solid #DAE2D2;
+}
+
+.search-btn {
+    background-color: #C2643B;
+    height: 40px;
+    border-radius: 8px;
+    padding: 10px;
+    border: 0;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+article {
+    border: 1px solid #D8D1C5;
+    height: 420px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    width: 50%;
+    margin: 20px auto;
+    background-color: #F8F3EB;
+
+}
+
+
+.weather-card {
+
+    /* border: 2px solid red; */
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px;
+}
+
+
+
+.images img {
+    height: 180px;
+}
+
+
+.others-box {
+    /* border: 2px solid green; */
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.humdity-box,
+.tempreature-box,
+.windspeed-box {
+    border: 2px solid #E8E2D9;
+    height: 80%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.icon i {
+    background-color: #DFE5EA;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.icon1 i {
+    background-color: #F4E1D2;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon2 i {
+    background-color: #DAE2D2;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
